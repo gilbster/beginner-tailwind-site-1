@@ -8,7 +8,7 @@
 
   <body>
     <!-- header/navigation =============================================== -->
-    <div class="bg-gradient-to-br from-white to-gray-300">
+    <div class="bg-gradient-to-br from-gray-100 to-gray-300">
       <!-- left cirlce decoration -->
       <div class="absolute top-0 left-0 transform translate-x-4 translate-y-4">
         <div
@@ -633,41 +633,106 @@
 
     <!-- footer ========================================================== -->
 
-    <div class="py-24 bg-gray-100 text-gray-700">
-      <div class="container mx-auto px-6 lg:px-0">
+    <div
+      class="relative py-24 bg-gradient-to-br from-gray-100 to-gray-300 text-gray-600"
+    >
+      <!-- circles  -->
+      <div class="absolute top-0 left-0 transform translate-y-6 translate-x-6">
+        <div
+          class="absolute w-24 h-24 rounded-full bg-gradient-to-br from-teal-100 to-teal-200 opacity-50"
+        ></div>
+        <div
+          class="absolute w-24 h-24 rounded-full bg-gradient-to-br from-purple-100 to-purple-200 opacity-50 ml-12"
+        ></div>
+        <div
+          class="absolute w-24 h-24 rounded-full bg-gradient-to-br from-red-100 to-red-200 opacity-50 ml-6 mt-12"
+        ></div>
+      </div>
+
+      <div class="relative container mx-auto px-6 lg:px-0">
         <!-- top footer  -->
         <div class="flex justify-between">
           <!-- newsletter -->
           <div class="flex flex-col justify-center">
-            <h4 class="mb-3">Get Updates on this Course</h4>
-            <form action="" method="post">
-              <input type="email" name="email" />
-              <button>Subscribe</button>
+            <h4
+              class="mb-3 font-bold text-5xl text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-purple-500"
+            >
+              Get Updates on this Course
+            </h4>
+            <form action="" method="post" class="flex">
+              <input
+                type="email"
+                name="email"
+                placeholder="super@secret.com"
+                class="p-3 w-full rounded-l outline-none border-2 border-gray-400 border-r-0 focus:border-purple-400 placeholder placeholder-gray-400"
+              />
+              <button class="p-3 bg-purple-400 text-purple-100 rounded-r">
+                Subscribe
+              </button>
             </form>
           </div>
           <!-- links  -->
           <div class="text-right flex space-x-8">
             <div class="space-y-2">
-              <p class="mb-3">Company</p>
-              <a href="#" class="block">About</a>
-              <a href="#" class="block">Blog</a>
-              <a href="#" class="block">Careers</a>
+              <p class="mb-3 font-bold text-gray-500 uppercase tracking-widest">
+                Company
+              </p>
+              <a href="#" class="block hover:text-gray-800 hover:underline"
+                >About</a
+              >
+              <a href="#" class="block hover:text-gray-800 hover:underline"
+                >Blog</a
+              >
+              <a href="#" class="block hover:text-gray-800 hover:underline"
+                >Careers</a
+              >
+              <a href="#" class="block hover:text-gray-800 hover:underline"
+                >Careers</a
+              >
             </div>
             <div class="space-y-2">
-              <p class="mb-3">Company</p>
-              <a href="#" class="block">About</a>
-              <a href="#" class="block">Blog</a>
-              <a href="#" class="block">Careers</a>
+              <p class="mb-3 font-bold text-gray-500 uppercase tracking-widest">
+                Company
+              </p>
+              <a href="#" class="block hover:text-gray-800 hover:underline"
+                >About</a
+              >
+              <a href="#" class="block hover:text-gray-800 hover:underline"
+                >Blog</a
+              >
+              <a href="#" class="block hover:text-gray-800 hover:underline"
+                >Careers</a
+              >
+              <a href="#" class="block hover:text-gray-800 hover:underline"
+                >Careers</a
+              >
+            </div>
+            <div class="space-y-2">
+              <p class="mb-3 font-bold text-gray-500 uppercase tracking-widest">
+                Company
+              </p>
+              <a href="#" class="block hover:text-gray-800 hover:underline"
+                >About</a
+              >
+              <a href="#" class="block hover:text-gray-800 hover:underline"
+                >Blog</a
+              >
+              <a href="#" class="block hover:text-gray-800 hover:underline"
+                >Careers</a
+              >
+              <a href="#" class="block hover:text-gray-800 hover:underline"
+                >Careers</a
+              >
             </div>
           </div>
         </div>
 
         <!-- bottom footer  -->
         <div
-          class="pt-4 mt-16 flex justify-between border-t border-gray-300 text-gray-600 text-sm"
+          class="pt-4 mt-16 flex justify-between border-t border-gray-300 text-sm"
         >
           <!-- copyright  -->
-          <div>Copyright &copy; 2020 - 4055</div>
+          <div>Copyright &copy; 2020</div>
           <!-- links  -->
           <div class="space-x-4">
             <a href="#">Twitter</a>
