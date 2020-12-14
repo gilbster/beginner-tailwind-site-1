@@ -38,7 +38,7 @@
       </div>
 
       <div class="relative text-gray-600">
-        <div class="container mx-auto flex justify-between px-6 py-6">
+        <div class="container mx-auto flex justify-between px-10 py-6">
           <!-- left header section -->
           <div class="flex items-center space-x-4 font-semibold">
             <a
@@ -46,16 +46,18 @@
               class="font-bold text-2xl text-teal-800 hover:text-teal-600 transition duration-300"
               >Beginner Tailwind</a
             >
-            <a href="#" class="hover:text-gray-900 hidden lg:inline-block"
-              >What You'll Learn</a
-            >
-            <a href="#" class="hover:text-gray-900 hidden lg:inline-block"
+            <a href="#about" class="hover:text-gray-900 hidden lg:inline-block"
               >About</a
             >
-            <a href="#" class="hover:text-gray-900 hidden lg:inline-block"
+            <a href="#learn" class="hover:text-gray-900 hidden lg:inline-block"
+              >What You'll Learn</a
+            >
+            <a
+              href="#pricing"
+              class="hover:text-gray-900 hidden lg:inline-block"
               >Pricing</a
             >
-            <a href="#" class="hover:text-gray-900 hidden lg:inline-block"
+            <a href="#faq" class="hover:text-gray-900 hidden lg:inline-block"
               >FAQ</a
             >
           </div>
@@ -77,7 +79,7 @@
         <!-- purple bar to help with the section transition  -->
         <div class="absolute bottom-0 inset-x-0 h-64 bg-purple-700"></div>
 
-        <div class="container mx-auto px-6 lg:px-0 py-24 text-center">
+        <div class="container mx-auto px-10 py-24 text-center">
           <!-- heading -->
           <h1 class="mb-4 text-5xl lg:text-6xl font-extrabold">
             <span
@@ -130,11 +132,11 @@
     <!-- ================================================================= -->
 
     <!-- overview ======================================================== -->
-    <div class="relative bg-purple-700 lg:pt-12 pb-24">
+    <div id="about" class="relative bg-purple-700 lg:pt-12 pb-24">
       <!-- gray bar to help section transition -->
       <div class="absolute bottom-0 inset-x-0 h-64 bg-gray-300"></div>
 
-      <div class="relative container mx-auto px-6 lg:px-0">
+      <div class="relative container mx-auto px-10">
         <h2 class="mb-10 text-4xl lg:text-6xl font-bold text-white">
           Writing CSS is tough stuff!
         </h2>
@@ -222,7 +224,7 @@
 
     <!-- about me ======================================================== -->
     <div class="lg:pt-12 pb-24 bg-gray-300 lg:text-center">
-      <div class="container mx-auto px-6 lg:px-0">
+      <div class="container mx-auto px-10">
         <h2 class="mb-3 text-3xl lg:text-6xl font-semibold text-teal-900">
           Some Tailwind Videos I've Done
         </h2>
@@ -281,8 +283,8 @@
     <!-- ================================================================= -->
 
     <!-- What you'll learn =============================================== -->
-    <div class="py-32 bg-gray-200 text-gray-700">
-      <div class="container mx-auto px-6 lg:px-0">
+    <div id="learn" class="py-32 bg-gray-200 text-gray-700">
+      <div class="container mx-auto px-10">
         <!-- header -->
         <div class="relative">
           <h2
@@ -398,8 +400,8 @@
 
     <!-- what we'll build =============================================== -->
 
-    <div class="py-24 bg-gray-300 text-gray-600">
-      <div class="container mx-auto px-6 lg:px-0">
+    <div id="build" class="py-24 bg-gray-300 text-gray-600">
+      <div class="container mx-auto px-10">
         <div class="mb-8 text-center">
           <h2 class="mb-2 text-5xl text-gray-800">What We Will Build</h2>
           <p class="text-lg text-gray-700">
@@ -480,13 +482,13 @@
 
     <!-- =============================================================== -->
     <!-- pricing ======================================================== -->
-    <div class="relative bg-blue-600 py-32 text-blue-200">
+    <div id="pricing" class="relative bg-blue-600 py-32 text-blue-200">
       <!-- gray box for the top section  -->
 
       <div class="absolute top-0 inset-x-0 h-48 bg-gray-300"></div>
 
       <div
-        class="container mx-auto px-6 lg:px-0 flex flex-col lg:flex-row items-center lg:space-x-8 space-y-4 lg:space-y-0"
+        class="container mx-auto px-10 flex flex-col lg:flex-row items-center lg:space-x-8 space-y-4 lg:space-y-0"
       >
         <!-- left box -->
         <div
@@ -557,8 +559,8 @@
     <!-- ================================================================= -->
 
     <!-- faq ============================================================= -->
-    <div class="bg-gray-800 py-32 text-gray-400">
-      <div class="container mx-auto px-6 lg:px-0">
+    <div id="faq" class="bg-gray-800 py-32 text-gray-400">
+      <div class="container mx-auto px-10">
         <h2 class="mb-12 text-3xl text-center font-bold">
           Frequently Asked Questions
         </h2>
@@ -649,13 +651,13 @@
         ></div>
       </div>
 
-      <div class="relative container mx-auto px-6 lg:px-0">
+      <div class="relative container mx-auto px-10">
         <!-- top footer  -->
-        <div class="flex justify-between">
+        <div class="lg:flex justify-between space-y-12 lg:space-y-0">
           <!-- newsletter -->
           <div class="flex flex-col justify-center">
             <h4
-              class="mb-3 font-bold text-5xl text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-purple-500"
+              class="mb-3 font-bold text-2xl lg:text-5xl text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-purple-500"
             >
               Get Updates on this Course
             </h4>
@@ -672,7 +674,9 @@
             </form>
           </div>
           <!-- links  -->
-          <div class="text-right flex space-x-8">
+          <div
+            class="text-center lg:text-right md:flex md:justify-center md:space-x-8 space-y-8 md:space-y-0"
+          >
             <div class="space-y-2">
               <p class="mb-3 font-bold text-gray-500 uppercase tracking-widest">
                 Company
@@ -729,7 +733,7 @@
 
         <!-- bottom footer  -->
         <div
-          class="pt-4 mt-16 flex justify-between border-t border-gray-300 text-sm"
+          class="pt-4 mt-16 md:flex justify-between border-t border-gray-300 text-sm text-center md:text-left space-y-4 md:space-y-0"
         >
           <!-- copyright  -->
           <div>Copyright &copy; 2020</div>
